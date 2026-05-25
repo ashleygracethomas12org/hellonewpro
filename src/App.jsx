@@ -15,6 +15,9 @@ import DomeGalleryPage from "./pages/Components/DomeGallery/DomeGalleryPage.jsx"
 import ChromaGridPage from "./pages/Components/ChromaGrid/ChromaGridPage.jsx";
 import StackPage from "./pages/Components/Stack/StackPage.jsx";
 import CircularGalleryPage from "./pages/Components/CircularGallery/CircularGalleryPage.jsx";
+import Loading from "./pages/Components/Loading/Loading.jsx";
+import ScrollFloatPage from "./pages/Components/ScrollFloat/ScrollFloatPage.jsx";
+import FallingTextPage from "./pages/Components/FallingText/FallingTextPage.jsx";
 
 const FEATURES = [
   { path: "/antigravity", label: "Antigravity", badge: "NEW" },
@@ -31,6 +34,12 @@ const FEATURES = [
   { path: "/chromagrid", label: "Chroma Grid", badge: "NEW" },
   { path: "/stack", label: "Stack", badge: "NEW" },
   { path: "/circulargallery", label: "Circular Gallery", badge: "NEW" },
+  { path: "/loading", label: "Loading", badge: "NEW" },
+  { path: "/scrollfloat", label: "Scroll Float", badge: "NEW" },
+
+  { path: "/fallingtext", label: "Falling Text", badge: "NEW" },
+
+
 
 
 
@@ -75,6 +84,12 @@ export default function App() {
           <Route path="/chromagrid" element={<ChromaGridPage />} />
           <Route path="/stack" element={<StackPage />} />
           <Route path="/circulargallery" element={<CircularGalleryPage />} />
+          <Route path="/loading" element={<Loading />} />
+          <Route path="/scrollfloat" element={<ScrollFloatPage />} />
+          <Route path="/fallingtext" element={<FallingTextPage />} />
+
+
+
 
 
 
