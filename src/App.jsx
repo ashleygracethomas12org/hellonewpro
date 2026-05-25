@@ -18,6 +18,7 @@ import CircularGalleryPage from "./pages/Components/CircularGallery/CircularGall
 import Loading from "./pages/Components/Loading/Loading.jsx";
 import ScrollFloatPage from "./pages/Components/ScrollFloat/ScrollFloatPage.jsx";
 import FallingTextPage from "./pages/Components/FallingText/FallingTextPage.jsx";
+import PixelTransitionPage from "./pages/Animations/PixelTransition/PixelTransitionPage.jsx";
 
 const FEATURES = [
   { path: "/antigravity", label: "Antigravity", badge: "NEW" },
@@ -38,6 +39,8 @@ const FEATURES = [
   { path: "/scrollfloat", label: "Scroll Float", badge: "NEW" },
 
   { path: "/fallingtext", label: "Falling Text", badge: "NEW" },
+  { path: "/pixeltransition", label: "Pixel Transition", badge: "NEW" },
+
 
 
 
@@ -87,6 +90,9 @@ export default function App() {
           <Route path="/loading" element={<Loading />} />
           <Route path="/scrollfloat" element={<ScrollFloatPage />} />
           <Route path="/fallingtext" element={<FallingTextPage />} />
+          <Route path="/pixeltransition" element={<PixelTransitionPage />} />
+
+
 
 
 
